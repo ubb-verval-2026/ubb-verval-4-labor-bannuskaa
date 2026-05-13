@@ -132,6 +132,7 @@ public class PersonPageTests
     [TestCase(-11)]
     [TestCase(-15)]
     [TestCase(-100)]
+    [TestCase(-10)]
     public void Person_SalaryIncrease_BelowMinusTen_ShouldShowErrors(double percentage)
     {
         // Arrange
